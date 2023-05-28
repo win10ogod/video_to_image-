@@ -30,3 +30,19 @@ python video_extractor_gui.py
 # 使用方法:
 python video_extractor_gui_accelerated.py
 
+# video_extractor_gui_enhanced v2
+允許您選擇視頻文件、輸出目錄，並通過單擊相應的按鈕執行各種操作，例如幀提取、音頻提取、視頻合成以及合併視頻和音頻。
+
+# 依賴安裝方法:
+pip install opencv-python
+pip install tqdm
+pip install moviepy
+
+# 可選但有用的依賴項
+您可以moviepy通過以下方式安裝所有依賴項：
+
+pip install moviepy[optional]
+
+
+# 使用方法:
+python video_extractor_gui_enhanced v2.py
