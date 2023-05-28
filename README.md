@@ -46,3 +46,20 @@ pip install moviepy[optional]
 
 # 使用方法:
 python video_extractor_gui_enhanced v2.py
+
+# video_extractor_gui_accelerated v2
+video_extractor_gui_enhanced v2的增強版增加了為視頻處理任務選擇 CPU 或 GPU 加速的選項。torch.cuda.is_available()該程序使用庫中的函數檢查 GPU 是否可用torch。如果 GPU 可用，程序可以利用它進行更快的處理。可以從 GUI 的下拉菜單中選擇加速選項。
+
+# 下載方法
+
+
+# 使用方法:
+使用.exe文件
+
+# 依賴安裝方法:
+pip install opencv-python
+pip install tqdm
+pip install moviepy
+安裝 PyTorch
+PyTorch的官網
+https://pytorch.org/get-started/locally/
