@@ -25,6 +25,8 @@ python video_extractor_gui.py
 當選擇 CPU 加速時，添加了一個預覽窗口以在提取過程中實時顯示幀。
 添加了一個完成消息框以顯示提取的幀總數。
 
+# 注意：GPU 加速需要支持 CUDA 的 GPU 和安裝必要的庫。
+
 # 使用方法:
 python video_extractor_gui_accelerated.py
 
